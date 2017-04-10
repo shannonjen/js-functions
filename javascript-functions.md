@@ -34,7 +34,7 @@ function greeting(){
 
 # Invoke/Call a function
 
-Statements in the block are not run until the function is called
+Statements in the block are not run until the function is called.
 
 ```JavaScript
 //function invocation
@@ -50,7 +50,7 @@ greeting();
 
 # Challenge: Create some old school annoyware
 
-* Declare a function that uses the built in alert method to alert the user that they have won a valuable prize
+* Declare a function that uses the built-in alert method to alert the user that they have won a valuable prize
 * Invoke the function a few times
 
 ---
@@ -62,6 +62,9 @@ greeting();
 function persGreet(firstName, lastName){
   console.log('Hello ' + firstName + ' ' + lastName);
 }
+
+//function invocation
+persGreet('Jen', 'Shannon');
 
 ```
 
